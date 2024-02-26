@@ -44,22 +44,84 @@ head{
     margin: 0;
     padding: 0;
 }
+/* Section Styles *
+  /* Section Styles */
 /* Section Styles */
+/* About Us Styles */
 #About-us {
-    display: flex;          /* Make the section a flex container */
-    flex-direction: column; /* Arrange content vertically */
-    align-items: center;    /* Center items horizontally */
-    text-align: center;     /* Center text within items */
+    display: flex;  
+    flex-direction: column; /* Default to a vertical layout */
+    align-items: center;
+    text-align: center; 
+  }
+  
+  .about-us-info { 
+    width: 45%; 
+    background-color: #f0f0f0; /* Light gray background */
+    border: solid; /* Remove border */
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    margin-right: 20px;
+  }
+  #About-us img{
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 15px; /* Add spacing below the image */
+    margin-top: 0px;
+  }
+#About-us p{
+    margin-bottom: 0px;
+}
+
+ #About-us h3{
+    margin-top: 20px;
+    line-height: 1.2;
+  }
+  
+  /* Consider using flexbox or grid to arrange the image and content in the  .about-us-info section */
+  
+  /* Services Styles */
+  #services-container { 
+    display: flex; 
+    /* center in middle */
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+  }
+  #services{
+    text-align: center;
   }
   
   .service {
-    width: 45%;       /* Adjust width as needed for side-by-side articles */
-    margin: 10px;     /* Add some spacing around articles */
-    text-align: center; /* Center content of each article */
+    width: 45%; 
+    background-color: #f0f0f0; /* Light gray background */
+    border: solid; /* Remove border */
+    text-align: center;
+    margin: 0px;
+    margin-right: 0px;
+    border-width: 1px;
+}
+
+  .service h3{
+    margin-bottom: 0px;
+    line-height: 1.2;
   }
   
   .service img {
-    max-width: 100%; /* Make images responsive within the article */
+    max-width: 100%; 
     height: auto;
+    margin-bottom: 15px; /* Add spacing below the image */
+  }
+  .service p {
+    margin-top: 5px; /* Reduce the margin above the paragraph */
   }
   
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 15px 0; 
+    background-color: #333; /* Example dark background */
+    color: white;
+  }
