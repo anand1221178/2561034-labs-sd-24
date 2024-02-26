@@ -11,6 +11,7 @@ body {
     display: flex;         /* Make the header a flex container */
     justify-content: space-between; /* Space between h1 and nav */
     align-items: center;   /* Vertically center elements */
+    padding-left: 5%;
   }
   
   /* Navigation Styles */
@@ -95,7 +96,7 @@ head{
   }
   
   .service {
-    width: 45%; 
+    width: 35%; 
     background-color: #f0f0f0; /* Light gray background */
     border: solid; /* Remove border */
     text-align: center;
