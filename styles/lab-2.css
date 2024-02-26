@@ -1,0 +1,127 @@
+/* General Styles (Optional) */
+body { 
+    margin: 0; /* Reset default browser margins */
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: black; /* Dark background */
+    color: white;          /* White text */
+    padding: 15px 0;       /* Padding for visual spacing */
+    display: flex;         /* Make the header a flex container */
+    justify-content: space-between; /* Space between h1 and nav */
+    align-items: center;   /* Vertically center elements */
+  }
+  
+  /* Navigation Styles */
+  nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;             /* Reset margins  */
+    padding: 0;            /* Reset padding */ 
+    display: flex;         /* Arrange nav items horizontally */
+  }
+  
+  nav li { 
+    margin-right: 15px;    /* Add spacing between nav items */
+  }
+  
+  nav a {
+    display: block;        /* Make links fill space for easier clicking */
+    color: white;          
+    text-decoration: none; /* Remove underline */
+    padding: 10px;         /* Add padding for visual spacing */
+  }
+  
+  nav a:hover {
+   background-color: white;  /* Change color on hover */
+   color: black; 
+   border-radius: 30%;
+  }
+
+/* No spacing on head element */
+
+head{
+    margin: 0;
+    padding: 0;
+}
+/* Section Styles *
+  /* Section Styles */
+/* Section Styles */
+/* About Us Styles */
+#About-us {
+    display: flex;  
+    flex-direction: column; /* Default to a vertical layout */
+    align-items: center;
+    text-align: center; 
+  }
+  
+  .about-us-info { 
+    width: 45%; 
+    background-color: #f0f0f0; /* Light gray background */
+    border: solid; /* Remove border */
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    margin-right: 20px;
+  }
+  #About-us img{
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 15px; /* Add spacing below the image */
+    margin-top: 0px;
+  }
+#About-us p{
+    margin-bottom: 0px;
+}
+
+ #About-us h3{
+    margin-top: 20px;
+    line-height: 1.2;
+  }
+  
+  /* Consider using flexbox or grid to arrange the image and content in the  .about-us-info section */
+  
+  /* Services Styles */
+  #services-container { 
+    display: flex; 
+    /* center in middle */
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+  }
+  #services{
+    text-align: center;
+  }
+  
+  .service {
+    width: 45%; 
+    background-color: #f0f0f0; /* Light gray background */
+    border: solid; /* Remove border */
+    text-align: center;
+    margin: 0px;
+    margin-right: 0px;
+    border-width: 1px;
+}
+
+  .service h3{
+    margin-bottom: 0px;
+    line-height: 1.2;
+  }
+  
+  .service img {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 15px; /* Add spacing below the image */
+  }
+  .service p {
+    margin-top: 5px; /* Reduce the margin above the paragraph */
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 15px 0; 
+    background-color: #333; /* Example dark background */
+    color: white;
+  }
